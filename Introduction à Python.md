@@ -1,6 +1,5 @@
 # Introduction à Python.
-
-- *Table des matières*
+---
 
 # **Légende du cours**
 
@@ -12,20 +11,11 @@
 
 **Ceci est un point important**
 
-<aside>
 📝 Ceci est un exemple single line
 
-</aside>
-
-<aside>
 ⚠️ Ceci est une mise en garde
 
-</aside>
-
-<aside>
 💡 Ceci est un conseil
-
-</aside>
 
 [Ceci est un texte avec un lien vers un site ressource](https://www.w3schools.com/python/default.asp)
 
@@ -79,9 +69,7 @@ La majorité des PC et des Mac auront Python de préinstallé.
 python --version
 ```
 
-Si la commande n’est pas trouvée, vous pouvez installer python sur leur site : 
-
-[Welcome to Python.org](https://www.python.org/)
+Si la commande n’est pas trouvée, vous pouvez installer python sur leur [site](https://www.python.org/).
 
 **Logiciels & plateformes**
 
@@ -360,7 +348,7 @@ list.sort() # Ordonner les données d'une liste
 
 ### Tableaux
 
-Ils permettent de stocker, visualiser et manipuler les jeux de données facilement grâce à des `[DataFrame](http://www.python-simple.com/python-pandas/creation-dataframes.php)`.
+Ils permettent de stocker, visualiser et manipuler les jeux de données facilement grâce à des [DataFrame](http://www.python-simple.com/python-pandas/creation-dataframes.php).
 
 **Import.**
 
@@ -1001,7 +989,7 @@ for x in [0, 1, 2]:
 ---
 
 <aside>
-💡 Si vous ne disposez pas des librairies et/ou modules utilisés, il suffit de les installer en se référant au [chapitre](https://www.notion.so/Cours-Python-Stagiaires-b6077b03b28e462997b3cab2aa3d0c85) à ce propos.
+💡 Si vous ne disposez pas des librairies et/ou modules utilisés, il suffit de les installer en se référant au chapitre à ce propos.
 
 </aside>
 
@@ -1033,14 +1021,15 @@ r2 = metrics.r2_score(donnees_reelles, donnees_predites) # Coefficient de déter
 
 ### Statistiques inférentielles (tests)
 
-[Récapitulatif Tests Statistiques](Cours%20Python%20-%20Stagiaires%20e25f1aa341f84823acfd826c91f79fd5/Fiche_2_-_Tests.pdf)
+[Récapitulatif Tests Statistiques](https://drive.google.com/file/d/1HCrS5oVhnTjMpFRnBLYlykfv_ZYR7a0n/view?usp=sharing)
 
 <aside>
-💡 Si vous ne disposez pas des librairies et/ou modules utilisés, il suffit de les installer en se référant au [chapitre](https://www.notion.so/Cours-Python-Stagiaires-b6077b03b28e462997b3cab2aa3d0c85) à ce propos.
+💡 Si vous ne disposez pas des librairies et/ou modules utilisés, il suffit de les installer en se référant au chapitre à ce propos.
 
 </aside>
 
-**Tests de normalité**
+
+### Tests de normalité
 
 **Test de Shapiro-Wilk**
 
@@ -1051,7 +1040,7 @@ from scipy.stats import shapiro # Librairie
 shapiro(data) # Fonction (où data représente le tableau de données, qu'on peut nommer dinosare ou pancakes si on veut
 ```
 
-**Tests de corrélation**
+### Tests de corrélation
 
 **Test de Pearson**
 
@@ -1080,7 +1069,7 @@ from scipy.stats import chi2_contingency # Librairie
 chi2_contingency(data) # Fonction
 ```
 
-**Tests paramétriques**
+### Tests paramétriques 
 
 **Test de Student**
 
@@ -1100,7 +1089,7 @@ from scipy.stats import f_oneway # Librairie
 stat, p = f_oneway(data1, data2, data3) # Fonction où data1, data2 et data3 représentent les jeux de données à comparer
 ```
 
-**Tests non-paramétriques**
+### Tests non-paramétriques
 
 **Test Mann-Whitney**
 
@@ -1124,10 +1113,7 @@ wilcoxon(data1, data2) # Fonction où data1 et data2 représentent les jeux de d
 
 ---
 
-<aside>
-💡 Si vous ne disposez pas des librairies et/ou modules utilisés, il suffit de les installer en se référant au [chapitre](https://www.notion.so/Cours-Python-Stagiaires-b6077b03b28e462997b3cab2aa3d0c85) à ce propos.
-
-</aside>
+💡 Pour un tutoriel pas à pas, se référer à ce [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing#scrollTo=nqdXdZa8RI5J).
 
 ## Deep Learning
 
@@ -1148,15 +1134,12 @@ pip install torch
 On l’appelle ensuite comme on le fait pour les autres.
 
 ```python
-import ****torch
+import torch
 ```
 
 **Utilisation**
 
-<aside>
 💡 [Tutoriel](https://ledatascientist.com/debuter-avec-pytorch/) en français.
-
-</aside>
 
 ### Gradient Boosting
 
@@ -1166,10 +1149,7 @@ On utilise un [module](https://scikit-learn.org/stable/auto_examples/ensemble/pl
 from sklearn.ensemble import GradientBoostingRegressor
 ```
 
-<aside>
 💡 Pour un tutoriel pas à pas, se référer à ce [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing#scrollTo=nqdXdZa8RI5J).
-
-</aside>
 
 On va ensuite séparer les données en 2 parties : 
 
@@ -1191,10 +1171,7 @@ On va ensuite séparer les données en 2 parties :
 - Un jeu de données assez grand (au moins la moitié) pour que le modèle puisse apprendre à prédire.
 - Un plus petit jeu de données pour qu’il puisse s’entraîner.
 
-<aside>
 💡 Pour un tutoriel pas à pas, se référer à ce [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing#scrollTo=nqdXdZa8RI5J).
-
-</aside>
 
 ## Modèles Linéaires
 
@@ -1242,4 +1219,5 @@ model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, aju
 
 [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing) sur le Quantile Boosting & Random Forest sur des données temporelles.
 
-[Introduction Python - Master 1 Informatique](Cours%20Python%20-%20Stagiaires%20e25f1aa341f84823acfd826c91f79fd5/CM.pdf)
+---
+&copy; As' & Ben'
