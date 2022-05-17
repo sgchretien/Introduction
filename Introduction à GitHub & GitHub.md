@@ -1,6 +1,5 @@
-# Introduction à GitHub
-
-- *Table des matières*
+# Introduction à GitHub.
+---
 
 # **Légende du cours**
 
@@ -12,20 +11,10 @@
 
 **Ceci est un point important**
 
-<aside>
 📝 Ceci est un exemple single line
 
-</aside>
-
-<aside>
 ⚠️ Ceci est une mise en garde
 
-</aside>
-
-<aside>
-💡 Ceci est un conseil
-
-</aside>
 
 [Ceci est un texte avec un lien vers un site ressource](https://www.w3schools.com/python/default.asp)
 
@@ -170,7 +159,7 @@ Et voilà ! Vous avez créé votre premier repo Git !
 
 Vous venez de créer votre premier repo git, cependant il est vide.
 
-Ajoutons donc quelques fichiers, ou crééz en un avec votre éditeur de fichier préféré. Sauvegardez-le et déplacez-le dans le dossier que vous venez de créer.
+Ajoutons donc quelques fichiers, ou créez en un avec votre éditeur de fichier préféré. Sauvegardez-le et déplacez-le dans le dossier que vous venez de créer.
 
 Pour cet exemple je vais créer un fichier en Python très simple comme ceci :
 
@@ -191,7 +180,7 @@ ls
 # >> bonsoir.py
 ```
 
-`ls` va lister les différents fichiers présents dans le dossier. Nous pouvons voir que `[bonsoir.py](http://bonsoir.py)` est présent.
+`ls` va lister les différents fichiers présents dans le dossier. Nous pouvons voir que ```bonsoir.py``` est présent.
 
 Puis nous pouvons vérifier avec `git status` pour vérifier qu’il est présent dans notre repo :
 
@@ -255,7 +244,7 @@ Le fichier a bien été ajouté à notre environnement de staging.
 
 Vous pouvez aussi ajouter plus qu’un seul fichier à la fois. Ajoutons donc deux fichiers dans notre dossier de travail.
 
-Un fichier `[README.md](http://README.md)` qui décrit le repo.
+Un fichier `README.md` qui décrit le repo.
 
 **Exemple**
 
@@ -401,7 +390,7 @@ git checkout bonsoir-python-bonjour
 
 Maintenant que nous sommes dans notre nouvel environnement de travail, nous pouvons commencer à modifier nos fichiers.
 
-Pour cet exemple, je vais créer une fonction `bonjour` dans le fichier `[bonsoir.py](http://bonsoir.py)`, en plus de cela je vais ajouter un fichier `merci.py`.
+Pour cet exemple, je vais créer une fonction `bonjour` dans le fichier `bonsoir.py`, en plus de cela je vais ajouter un fichier `merci.py`.
 
 **Exemple**
 
