@@ -603,11 +603,11 @@ Connectez vous à github et [allez sur la page du projet auquel vous êtes assoc
 
 Une fois que vous êtes sur le repo qui vous intéresse, vous pouvez cliquer sur le bouton **Fork** en haut d’un repo :
 
-![Untitled](Intro%20GitHub%20-%20Stagiaires%206633473bb62a4a6c911dbba0ba6c1dc3/Untitled.png)
+![fork](https://github.com/StagiairesMIASHS/Introduction/blob/main/fork.png?raw=true)
 
 Une fois que vous aurez cliqué sur le bouton, une nouvelle fenêtre s’affichera : 
 
-![Untitled](Intro%20GitHub%20-%20Stagiaires%206633473bb62a4a6c911dbba0ba6c1dc3/Untitled%201.png)
+![forking](https://github.com/StagiairesMIASHS/Introduction/blob/main/forking.png?raw=true)
 
 Cette fenêtre vous propose de changer le nom et la description du repo que vous êtes en train de fork. Une fois que vous avez cliqué sur “Create Fork”, la page du repo sur votre compte s’affichera.
 
@@ -615,7 +615,7 @@ Une fois que vous êtes sur votre page de repo vous voudrez sûrement commencer 
 
 Cliquez sur le bouton vert `Code` et copiez le lien comme ci-dessous :
 
-![Untitled](Intro%20GitHub%20-%20Stagiaires%206633473bb62a4a6c911dbba0ba6c1dc3/Untitled%202.png)
+![url](https://github.com/StagiairesMIASHS/Introduction/blob/main/url.png?raw=true)
 
 Rendez-vous sur votre terminal préféré et exécutez la commande suivante :
 
@@ -646,6 +646,8 @@ Référez-vous aux [ressources](https://www.notion.so/Intro-GitHub-Stagiaires-70
 [(Alternative en anglais)](https://www.w3schools.com/git/default.asp?remote=github)
 
 [Cours](https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github) Git et GitHub (en français).
+
+
 
 ---
 &copy; As' & Ben'
