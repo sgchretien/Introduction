@@ -1180,7 +1180,7 @@ model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, aju
 
 # Ressources
 
-[Exercices](https://drive.protonmail.com/urls/0093XY42Y4#0dEUb8Z5FZB6) (énoncés et corrigés) par [Miguel Palencia-Olivar](https://github.com/mpalenciaolivar).
+[Exercices](https://github.com/mpalenciaolivar/Intro-au-Python) (énoncés et corrigés) par [Miguel Palencia-Olivar](https://github.com/mpalenciaolivar).
 
 [Ressource](https://www.w3schools.com/python/) très complète d’aide et tutos.
 
