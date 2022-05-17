@@ -1219,5 +1219,7 @@ model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, aju
 
 [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing) sur le Quantile Boosting & Random Forest sur des données temporelles.
 
+
+
 ---
 &copy; As' & Ben'
