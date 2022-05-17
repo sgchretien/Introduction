@@ -615,4 +615,4 @@ Référez-vous aux [ressources](https://www.notion.so/Intro-GitHub-Stagiaires-70
 
 
 ---
-&copy; As' & Ben'
+&copy; [As'](https://github.com/astridgcn) & [Ben'](https://github.com/SayneGit)
