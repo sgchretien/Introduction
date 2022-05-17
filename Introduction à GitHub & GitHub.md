@@ -1,9 +1,6 @@
 # Introduction à GitHub.
----
 
 # **Légende du cours**
-
----
 
 # Ceci est un titre majeur
 
@@ -76,11 +73,7 @@ Git est utilisé pour :
 
 # Installer et utiliser Git
 
----
-
 Vous pouvez télécharger Git gratuitement depuis [ce site](https://www.git-scm.com/).
-
----
 
 ## Utiliser Git en terminal de commandes
 
@@ -99,8 +92,6 @@ Si Git est installé, la sortie de la commande devrait être `git versrion X.Y`.
 
 ### Configurer Git
 
----
-
 Maintenant, apprenez à Git qui vous êtes. C’est important pour les systèmes de contrôle de versions, comme chaque commit utilise cette information.
 
 ```bash
@@ -117,8 +108,6 @@ Si vous souhaitez mettre un nom et un email juste pour le repo dans lequel vous 
 </aside>
 
 ### Créer un dossier Git
-
----
 
 Maintenant, créons un nouveau dossier pour notre projet :
 
@@ -141,8 +130,6 @@ Déplacez vous dans celui-ci avec l’explorateur de fichier, faites un clic-dro
 
 ### Initialiser Git
 
----
-
 Une fois que vous êtes dans le bon dossier, vous pouvez initialiser Git dans celui-ci :
 
 ```bash
@@ -152,11 +139,7 @@ git init
 
 Et voilà ! Vous avez créé votre premier repo Git !
 
----
-
 # Créer de nouveaux fichiers
-
----
 
 Vous venez de créer votre premier repo git, cependant il est vide.
 
@@ -210,8 +193,6 @@ Quand vous voulez ajouter des fichiers à un repo vide, ils sont tous **Untracke
 
 ## Environnement de Staging
 
----
-
 Une des fonctions principales de Git est l’environnement de **Staging** et les **Commits.**
 
 Pendant votre travail, nous serez sûrement amenés à ajouter, modifier ou supprimer de s fichiers. Mais dès que vous atteindrez une étape de votre projet, vous aurez besoin d’ajouter vos fichiers à l’environnement de **Staging**.
@@ -240,8 +221,6 @@ git status
 Le fichier a bien été ajouté à notre environnement de staging.
 
 ### Ajouter plus qu’un fichier à notre repo
-
----
 
 Vous pouvez aussi ajouter plus qu’un seul fichier à la fois. Ajoutons donc deux fichiers dans notre dossier de travail.
 
@@ -291,8 +270,6 @@ Maintenant que nos 3 fichiers sont ajouté à notre environnement de staging, no
 
 # Commits
 
----
-
 Maintenant que nous avons terminé notre travail, nous sommes prêts à `commit` nos changements sur notre repo.
 
 Ajouter des commits permet de garder la trace des changements dans notre travail. C’est le moment du projet où vous pouvez retourner en arrière si vous souhaitez trouver un bug, ou effectuer un changement.
@@ -317,8 +294,6 @@ L’environnement de staging a bien été commit dans notre repo.
 
 ## Commit Logs
 
----
-
 Pour voir l’historique des commits pour un repo, vous pouvez utiliser la commande `log`.
 
 **Exemple**
@@ -333,8 +308,6 @@ git log
 ```
 
 # Les branches
-
----
 
 Dans Git, les `branches` sont des versions séparées du repo principal.
 
@@ -579,8 +552,6 @@ git branch -d fix-urgence
 
 # GitHub
 
----
-
 Nous allons maintenant s’attaquer a GitHub, qui est là pour nous faciliter la vie avec Git.
 
 Allez sur [GitHub](https://github.com) et créez un compte.
@@ -595,8 +566,6 @@ Une fois que vous êtes sur votre page d’accueil GitHub, vous pouvez désormai
 Pour faciliter la collaboration et empêcher que n’importe qui puisse contribuer à un projet, GitHub à mit en place un système de `fork` qui permet de créer une copie du repo sur votre compte GitHub.
 
 ## Fork un repo
-
----
 
 `Fork` est une fonction utile de Github dans le cas où vous voulez travailler sur un projet sans partir de zéro.
 
@@ -630,17 +599,12 @@ Cela créera une copie locale du repo à l’endroit ou vous aurez ouvert votre 
 
 Voilà ! Vous pouvez commencer à coder !
 
----
-
 La suite des choses se fera voir en cours, et celui-ci sera mis à jour au fûr et à mesure.
 
 Référez-vous aux [ressources](https://www.notion.so/Intro-GitHub-Stagiaires-704303af3dc54f09b3f03ea4549b2fcf) pour en savoir plus !
 
----
 
 # Ressources
-
----
 
 [Tutoriel](https://git-scm.com/book/en/v2) Git (en anglais).
 
