@@ -646,3 +646,6 @@ Référez-vous aux [ressources](https://www.notion.so/Intro-GitHub-Stagiaires-70
 [(Alternative en anglais)](https://www.w3schools.com/git/default.asp?remote=github)
 
 [Cours](https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github) Git et GitHub (en français).
+
+---
+&copy; As' & Ben'
