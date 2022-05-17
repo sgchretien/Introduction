@@ -71,7 +71,7 @@ Il existe un large éventail de logiciels permettant de coder en Python :
 - [Atom](https://atom.io).
 - [PyCharm](https://www.jetbrains.com/fr-fr/pycharm/download/#section=windows).
 - [Spyder](https://www.spyder-ide.org).
-- [Visual Studio Code](https://code.visualstudio.com/#alt-downloads)
+- [Visual Studio Code](https://code.visualstudio.com/#alt-downloads).
 
 Il existe aussi des plateformes permettant de travailler à plusieurs comme [Colab](https://colab.research.google.com). 
 
