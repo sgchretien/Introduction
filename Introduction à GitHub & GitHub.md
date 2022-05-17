@@ -217,7 +217,7 @@ Pendant votre travail, nous serez sûrement amenés à ajouter, modifier ou supp
 
 Les fichiers **Staged** sont prêts à être **commit** dans le repo sur lequel vous êtes en train de travailler. Nous verrons les aspects du `commit` très bientôt.
 
-Pour l’instant, maintenant que nous avons terminé de travailler avec notre fichier `[bonsoir.py](http://bonsoir.py)`, nous pouvons l’ajouter à notre environnement de **Staging**.
+Pour l’instant, maintenant que nous avons terminé de travailler avec notre fichier `bonsoir.py`, nous pouvons l’ajouter à notre environnement de **Staging**.
 
 ```bash
 git add bonsoir.py
