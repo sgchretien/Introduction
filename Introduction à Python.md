@@ -1,9 +1,6 @@
 # Introduction à Python.
----
 
 # **Légende du cours**
-
----
 
 # Ceci est un titre majeur
 
@@ -26,8 +23,6 @@
 ```
 
 # Introduction
-
----
 
 ## Qu’est-ce que le python ?
 
@@ -58,8 +53,6 @@ Le python est un langage de programmation très populaire créé au début des a
 
 ## Pour bien commencer
 
----
-
 La majorité des PC et des Mac auront Python de préinstallé.
 
 - La dernière version est la `3.10` (`3.11` en version bêta) mais généralement, on en est à `3.9.12` (surtout sur Mac).
@@ -85,8 +78,6 @@ Il existe aussi des plateformes permettant de travailler à plusieurs comme [Col
 On est aussi souvent amené à travailler sur des fichiers en `.ipynb`. Ceux-ci offre la possibilité de mêler du `Python` à du `Markdown` (langage qui permet de mettre en forme : titres, sous-titres, liens, etc.). On peut les manipuler facilement avec Jupyter ou Google Colab. Nous verrons tout au long de ce cours que beaucoup de ressources et projets se trouvent sur des [Notebooks](https://jupyter.org) Jupyter.
 
 ## Vos premières lignes de code
-
----
 
 ### Explications
 
@@ -126,8 +117,6 @@ Félicitations ! Vous avez écrit et exécuté votre premier programme en `Pytho
 
 ## Le terminal de commandes en Python
 
----
-
 Pour tester une *petite quantité* de code en python, il est parfois préférable et plus rapide de l’exécuter dans le terminal en python.
 
 Pour cela écrivez la commande suivante dans votre terminal de commandes :
@@ -157,11 +146,7 @@ exit() # Il s'agit d'une fonction, ne pas oublier les parenthèses
 
 # Fonctionnalités
 
----
-
 ## Librairies
-
----
 
 ### **Objectif**
 
@@ -255,8 +240,6 @@ from sklearn import metrics
 
 ## Variables
 
----
-
 Comme pour la plupart des langages, le `Python` permet de manipuler différents types de variables : 
 
 - Booléen (`bool`) : Vrai / Faux.
@@ -286,8 +269,6 @@ print(type(dinosaure))
 ```
 
 ## Structures
-
----
 
 ### Listes
 
@@ -561,8 +542,6 @@ plt.show() #Afficher le nuage
 
 ## Opérateurs
 
----
-
 Les opérateurs sont utilisés pour réaliser des opérations sur des variables et des valeurs.
 
 En `Python`, les opérateurs sont séparés dans différents groupes :
@@ -657,8 +636,6 @@ Les opérateurs bitwise sont utilisés pour comparer des nombres binaires.
 | ~ (tilde) | NOT | Inverse tout les bits |
 
 ## Boucles & Conditions
-
----
 
 ### **Conditions et instructions `If`**
 
@@ -986,8 +963,6 @@ for x in [0, 1, 2]:
 
 ## Statistiques
 
----
-
 <aside>
 💡 Si vous ne disposez pas des librairies et/ou modules utilisés, il suffit de les installer en se référant au chapitre à ce propos.
 
@@ -1111,8 +1086,6 @@ wilcoxon(data1, data2) # Fonction où data1 et data2 représentent les jeux de d
 
 # Machine Learning
 
----
-
 💡 Pour un tutoriel pas à pas, se référer à ce [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing#scrollTo=nqdXdZa8RI5J).
 
 ## Deep Learning
@@ -1207,8 +1180,6 @@ model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, aju
 
 # Ressources
 
----
-
 [Exercices](https://drive.protonmail.com/urls/0093XY42Y4#0dEUb8Z5FZB6) (énoncés et corrigés) par [Miguel Palencia-Olivar](https://github.com/mpalenciaolivar).
 
 [Ressource](https://www.w3schools.com/python/) très complète d’aide et tutos.
@@ -1218,7 +1189,6 @@ model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, aju
 [Notebooks](https://www.numerical-tours.com/python/) explicatifs (Machine Learning, optimisation, ondelettes, etc.).
 
 [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing) sur le Quantile Boosting & Random Forest sur des données temporelles.
-
 
 
 ---
