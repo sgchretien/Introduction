@@ -15,6 +15,7 @@
 
 ⚠️ Ceci est une mise en garde
 
+💡 Ceci est un conseil
 
 [Ceci est un texte avec un lien vers un site ressource](https://www.pierre-giraud.com/git-github-apprendre-cours/presentation-git-github/)
 
