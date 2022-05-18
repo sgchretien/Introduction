@@ -161,6 +161,10 @@ Il suffit d’ouvrir le terminal (comme vu précédemment) et d’utiliser `pip 
 ```bash
 pip install NomLibrairie
 ```
+Si la commande pip n’est pas reconnue, vous pouvez faire :
+```bash
+py -m ensurepip—upgrade 
+```
 
 Si on souhaite une version particulière, on peut la stipuler avec `pip`.
 
