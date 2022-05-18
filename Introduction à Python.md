@@ -38,7 +38,7 @@ Le python est un langage de programmation très populaire créé au début des a
 
 - Le python peut être utilisé sur un serveur pour créer des applications web.
 - Il peut être utilisé pour connecter des bases de données, et peut être utilisé pour lire et modifier des fichiers.
-- Le python est souvent utilisé pour tenir des grands jeux de données et appliquer des fonctions mathématiques complexes.
+- Le python est souvent utilisé pour traiter des grands jeux de données et appliquer des fonctions mathématiques complexes.
 - Et enfin, il peut être utilisé pour faire du prototypage, et de la création d’application prêtes pour le déploiement.
 
 **Ce qu’il faut savoir :**
