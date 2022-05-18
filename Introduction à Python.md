@@ -60,6 +60,8 @@ La majorité des PC et des Mac auront Python de préinstallé.
 
 ```bash
 python --version
+py --version
+python3 -- version
 ```
 
 Si la commande n’est pas trouvée, vous pouvez installer python sur leur [site](https://www.python.org/).
