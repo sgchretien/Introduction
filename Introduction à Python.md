@@ -287,9 +287,10 @@ NomListe = list()
 **Compléter la liste.**
 
 ```python
-NomListe.append(Item1, Item2) # Les items peuvent être des nombres, du texte, etc.
+NomListe.append(Item1) # Les items peuvent être des nombres, du texte, etc.
 # Par exemple
-NomListe.append (3, "dinosaure", 34.6)
+NomListe.append ("dinosaure")
+NomListe.append (34.6)
 ```
 
 **Créer et remplir une liste.**
