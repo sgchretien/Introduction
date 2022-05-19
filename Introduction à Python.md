@@ -332,7 +332,7 @@ Element = MegaListe[2][0] #3ème liste, 1er élément (l'index commence à 0)
 **Ordonner les données.**
 
 ```python
-list.sort() # Ordonner les données d'une liste
+NomListe.sort() # Ordonner les données d'une liste
 ```
 
 ### Tableaux
