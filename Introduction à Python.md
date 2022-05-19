@@ -299,8 +299,9 @@ NomListe.append (34.6)
 NomListe = ["dinosaure", "pancakes"] # Liste de mots
 NomListe = [1, 2, 3] # Liste de chiffres
 NomListe = [17, "pirouette", 3, "cacahouète"] # Liste mixte
-NomListe = range(10) # Liste de chiffres de 0 à 9
-NomListe = range(1, 10, 2) # Liste de chiffres de 1 à 10 en allant de 2 en 2
+NomListe = list(range(20))
+NomListe = list(range(0, 10)) # Liste de chiffres de 0 à 9
+NomListe = list(range(1, 10, 2)) # Liste de chiffres de 1 à 10 en allant de 2 en 2
 ```
 
 **Mesurer sa longueur.** 
