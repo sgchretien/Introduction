@@ -446,9 +446,9 @@ import pandas as pd
 Par indices (lignes, colonnes).
 
 ```python
-df.iloc[0,5] # 1ère ligne, 6ème colonne
-df.iloc [0:5, 0:3] # 1ère à 6ème lignes et 1ère à 4ème colonne
-df.iloc[:, 0:3] # toutes les lignes et 1ère à 4ème colonnes
+df.iloc[0,5] # 1ère ligne, 5ème colonne
+df.iloc [0:5, 0:3] # 1ère à 5ème lignes et 1ère à 3ème colonnes
+df.iloc[:, 0:3] # toutes les lignes et 1ère à 3ème colonnes
 df.loc[:, 'NomColonne'] # toutes les lignes et colonne "NomColonne"
 ```
 
