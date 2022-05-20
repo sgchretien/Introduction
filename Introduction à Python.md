@@ -447,7 +447,7 @@ Par indices (lignes, colonnes).
 
 ```python
 df.iloc[0,5] # 1ère ligne, 6ème colonne
-df.iloc [0:5, 0:3] # 1ère à 6ème lignes et 1ère à 4ème lignes
+df.iloc [0:5, 0:3] # 1ère à 6ème lignes et 1ère à 4ème colonne
 df.iloc[:, 0:3] # toutes les lignes et 1ère à 4ème colonnes
 df.loc[:, 'NomColonne'] # toutes les lignes et colonne "NomColonne"
 ```
