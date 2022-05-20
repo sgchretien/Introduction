@@ -801,11 +801,9 @@ else:
 
 ### Les Boucles `For`
 
-Une boucle `for` est utilisée pour itérer sur une séquence, qui peut être une liste, un dictionnaire, une chaîne de carctère etc.
+Une boucle `for` est utilisée pour itérer sur une séquence, qui peut être une liste, un dictionnaire, une chaîne de carctère, etc.
 
-Ce type de boucle ressemble moins aux boucles `for` d’autres langages. Elle fonctionne plus comme une méthode d’itération trouvée dans les langages de programmation orienté objet.
-
-Avec la boucle `for` nous pouvons éxecuter une suite d’instructions, pour chaque item dans une liste, une suite ou autre...
+Avec la boucle `for` nous pouvons éxecuter une suite d’instructions, pour chaque item dans une liste, une suite ou autre, etc.
 
 **Exemple**
 
