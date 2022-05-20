@@ -274,7 +274,6 @@ print(type(dinosaure))
 >> str
 ```
 
-
 ## Opérateurs
 
 Les opérateurs sont utilisés pour réaliser des opérations sur des variables et des valeurs.
@@ -439,7 +438,7 @@ Ils permettent de stocker, visualiser et manipuler les jeux de données facileme
 
 ```python
 from pandas import DataFrame as df
-import panda as pd
+import pandas as pd
 ```
 
 **Sélectionner des colonnes / lignes particulières.**
