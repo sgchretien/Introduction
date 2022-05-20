@@ -438,7 +438,8 @@ Ils permettent de stocker, visualiser et manipuler les jeux de données facileme
 **Import.**
 
 ```python
-from pandas import DataFrame
+from pandas import DataFrame as df
+import panda as pd
 ```
 
 **Sélectionner des colonnes / lignes particulières.**
@@ -464,9 +465,9 @@ df.head(10) # Afficher les 10 premières lignes
 ```python
 df.index # Noms des lignes
 df.columns # Noms des colonnes
-df.dtype # Types de données du tableau
-df.columns.str.lower() # Passer le contenu en minuscules
-df.columns.str.upper() # Passer le contenu en majuscules
+df.dtypes # Types de données du tableau
+df.columns.__str__().lower() # Passer le contenu en minuscules
+df.columns.__str__().upper() # Passer le contenu en majuscules
 df.size # Quantité d'informations contenues dans le tableau
 df.shape # Dimensions (Nombre de lignes et colonnes)
 ```
@@ -474,8 +475,8 @@ df.shape # Dimensions (Nombre de lignes et colonnes)
 **Modifier.**
 
 ```python
-df.factorize() # Obtenir une liste des modalités de la variable (similaire SELECT DISTINCT en SQL)
-df.to_numeric() # Convertir en nombre (similaire à inttostr() en Pascal)
+pd.factorize() # Obtenir une liste des modalités de la variable (similaire SELECT DISTINCT en SQL)
+pd.to_numeric() # Convertir en nombre (similaire à inttostr() en Pascal)
 df.astype(NomType) # Convertir en type de variable à préciser
 df.copy() # Permet de dupliquer un tableau
 ```
