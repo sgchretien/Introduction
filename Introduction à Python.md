@@ -544,7 +544,7 @@ Ce qui nous donne :
 Cela permet de voir rapidement le type de données et leur répartition. Cela permet d’orienter les décisions concernant les traitements et tests à effectuer.
 
 ```python
-df.sort_values() # Ordonner les données d'un dataframe
+df.sort_values(by=['Colonne']) # Ordonner les données d'un dataframe
 describe() # Equivalent à summary() en R : résume les données
 ```
 
