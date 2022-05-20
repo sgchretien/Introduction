@@ -501,7 +501,7 @@ On précise :
 - Le type de *séparateur* *décimal* (par défaut : `.`, souvent `,` pour des jeux de données européens).
 
 ```python
-data = read_csv('NomFichier.csv', header = 0, index_col = 0, sep= ';', dec = ',')
+data = read_csv('NomFichier.csv', header = 0, index_col = 0, sep= ';', decimal = ',')
 ```
 
 Il est donc important d’ouvrir le fichier avant pour vérifier ces informations
@@ -509,7 +509,7 @@ Il est donc important d’ouvrir le fichier avant pour vérifier ces information
 À noter qu’on peut aussi importer un jeu de données directement depuis le web. 
 
 ```python
-data = read_csv('https://UrlDuFichierFinissantPar.csv', header = 0, index_col = 0, sep = ';', dec = ',')
+data = read_csv('https://UrlDuFichierFinissantPar.csv', header = 0, index_col = 0, sep = ';', decimal = ',')
 ```
 
 **Afficher du texte et des variables.**
