@@ -274,6 +274,102 @@ print(type(dinosaure))
 >> str
 ```
 
+
+## Opérateurs
+
+Les opérateurs sont utilisés pour réaliser des opérations sur des variables et des valeurs.
+
+En `Python`, les opérateurs sont séparés dans différents groupes :
+
+- Opérateurs arithmétiques.
+- Opérateurs d’assignement.
+- Opérateurs de comparaison.
+- Opérateurs logiques.
+- Opérateurs d’identité.
+- Opérateurs d’appartenance.
+- Opérateurs de comparaison (Bitwise).
+
+### Opérateurs arithmétiques
+
+Les opérateurs arithmétiques sont utilisés avec des valeurs numériques pour réaliser des opérations mathématiques courantes :
+
+| Opérateur | Nom | Exemple |
+| --- | --- | --- |
+| + | Addition | x + y |
+| - | Soustraction | x - y |
+| * | Multiplication | x * y |
+| / | Division | x / y |
+| % | Modulo | x % y |
+| ** | Exponentielle | x ** y |
+| // | Division Euclidienne | x // y |
+
+### Opérateurs d’assignement
+
+Les opérateurs d’assignement sont utilisés pour assigner des valeurs à des variables.
+
+| Opérateur | Exemple | Équivalence |
+| --- | --- | --- |
+| = | x = 5 | x = 5 |
+| += | x += 5 | x = x + 5 |
+| -= | x -= 5 | x = x - 5 |
+| *= | x *= 5 | x = x * 5 |
+| /= | x /= 5 | x = x / 5 |
+| %= | x %= 5 | x = x % 5 |
+| //= | x //= 5 | x = x // 5 |
+| **= | x **= 5 | x = x ** 5 |
+
+### Opérateurs de comparaison
+
+Les opérateurs de comparaison sont utilisés pour comparer deux valeurs.
+
+| Opérateur | Nom | Exemple |
+| --- | --- | --- |
+| == | Egal | x == y |
+| |= | Non égal | x |= y |
+| > | Plus grand que | x > y |
+| < | Plus petit que | x < y |
+| >= | Plus grand ou égal | x >= y |
+| <= | Plus petit ou égal | x <= y |
+
+### Opérateurs logiques
+
+Les opérateurs logiques sont utilisés pour combiner des instructions conditionnelles.
+
+| Opérateur | Description | Exemple |
+| --- | --- | --- |
+| and | Retourne true si les deux instructions sont vraies | x < 5 and x < 10 |
+| or | Retourne true si l’une des deux instructions sont vraies | x < 5 or x < 4 |
+| not | Inverse le résultat, retourne false si le résultat est true | not(x < 5 and x < 10) |
+
+### Opérateurs d’identité
+
+Les opérateurs d’identité sont utilisés pour comparer des objets, non pas s’ils sont égaux, mais si ils sont actuellement le même objet avec le même emplacement mémoire.
+
+| Opérateur | Description | Exemple |
+| --- | --- | --- |
+| is | Retourne true si les deux variables sont le même objet | x is y |
+| is not | Retourne true si les deux objets ne sont pas le même objet |  x is not y |
+
+### Opérateurs d’appartenance
+
+Les opérateurs d’appartenance sont utilisés pour tester si une séquence est présente dans un objet.
+
+| Opérateur | Description | Exemple |
+| --- | --- | --- |
+| in | Retourne true si une séquence avec la valeur spécifiée est présente dans l’objet | x in y |
+| not in | Retourne true si une séquence avec la valeur spécifiée n’est pas présente dans l’objet | x not in y |
+
+### Opérateurs de comparaison (Bitwise)
+
+Les opérateurs bitwise sont utilisés pour comparer des nombres binaires.
+
+| Opérateur | Nom | Description |
+| --- | --- | --- |
+| & (et commercial) | AND | Définit chaque bit à 1 si les deux bits sont 1 |
+| | (pipe) | OR | Définit chaque bit à 1 si l’un des deux bits est 1 |
+| ^  | XOR | Définit chaque bit à 1 si uniquement l’un des deux bits est 1 |
+| ~ (tilde) | NOT | Inverse tout les bits |
+
 ## Structures
 
 ### Listes
@@ -515,133 +611,6 @@ Ce qui nous affiche  :
 	 Prénom : Stéphane
 	 Numéro étudiant : 219574
 ```
-
-## Graphiques
-
----
-
-Cela permet de voir rapidement le type de données et leur répartition. Cela permet d’orienter les décisions concernant les traitements et [tests](https://www.notion.so/Cours-Python-Stagiaires-b6077b03b28e462997b3cab2aa3d0c85) à effectuer.
-
-**Courbe**
-
-```python
-from matplotlib import pyplot # Librairie
-
-pyplot.plot(data) # Créer une courbe
-pyplot.show() #Afficher la courbe
-```
-
-**Histogramme**
-
-```python
-import matplotlib.pyplot as plt # Librairie
-
-plt.hist(data) # Afficher un histogramme
-```
-
-**Nuage de points**
-
-```python
-import matplotlib.pyplot as plt # Librairie
-
-plt.scatter(data1, data2) # Créer le nuage
-plt.show() #Afficher le nuage
-```
-
-## Opérateurs
-
-Les opérateurs sont utilisés pour réaliser des opérations sur des variables et des valeurs.
-
-En `Python`, les opérateurs sont séparés dans différents groupes :
-
-- Opérateurs arithmétiques.
-- Opérateurs d’assignement.
-- Opérateurs de comparaison.
-- Opérateurs logiques.
-- Opérateurs d’identité.
-- Opérateurs d’appartenance.
-- Opérateurs de comparaison (Bitwise).
-
-### Opérateurs arithmétiques
-
-Les opérateurs arithmétiques sont utilisés avec des valeurs numériques pour réaliser des opérations mathématiques courantes :
-
-| Opérateur | Nom | Exemple |
-| --- | --- | --- |
-| + | Addition | x + y |
-| - | Soustraction | x - y |
-| * | Multiplication | x * y |
-| / | Division | x / y |
-| % | Modulo | x % y |
-| ** | Exponentielle | x ** y |
-| // | Division Euclidienne | x // y |
-
-### Opérateurs d’assignement
-
-Les opérateurs d’assignement sont utilisés pour assigner des valeurs à des variables.
-
-| Opérateur | Exemple | Équivalence |
-| --- | --- | --- |
-| = | x = 5 | x = 5 |
-| += | x += 5 | x = x + 5 |
-| -= | x -= 5 | x = x - 5 |
-| *= | x *= 5 | x = x * 5 |
-| /= | x /= 5 | x = x / 5 |
-| %= | x %= 5 | x = x % 5 |
-| //= | x //= 5 | x = x // 5 |
-| **= | x **= 5 | x = x ** 5 |
-
-### Opérateurs de comparaison
-
-Les opérateurs de comparaison sont utilisés pour comparer deux valeurs.
-
-| Opérateur | Nom | Exemple |
-| --- | --- | --- |
-| == | Egal | x == y |
-| |= | Non égal | x |= y |
-| > | Plus grand que | x > y |
-| < | Plus petit que | x < y |
-| >= | Plus grand ou égal | x >= y |
-| <= | Plus petit ou égal | x <= y |
-
-### Opérateurs logiques
-
-Les opérateurs logiques sont utilisés pour combiner des instructions conditionnelles.
-
-| Opérateur | Description | Exemple |
-| --- | --- | --- |
-| and | Retourne true si les deux instructions sont vraies | x < 5 and x < 10 |
-| or | Retourne true si l’une des deux instructions sont vraies | x < 5 or x < 4 |
-| not | Inverse le résultat, retourne false si le résultat est true | not(x < 5 and x < 10) |
-
-### Opérateurs d’identité
-
-Les opérateurs d’identité sont utilisés pour comparer des objets, non pas s’ils sont égaux, mais si ils sont actuellement le même objet avec le même emplacement mémoire.
-
-| Opérateur | Description | Exemple |
-| --- | --- | --- |
-| is | Retourne true si les deux variables sont le même objet | x is y |
-| is not | Retourne true si les deux objets ne sont pas le même objet |  x is not y |
-
-### Opérateurs d’appartenance
-
-Les opérateurs d’appartenance sont utilisés pour tester si une séquence est présente dans un objet.
-
-| Opérateur | Description | Exemple |
-| --- | --- | --- |
-| in | Retourne true si une séquence avec la valeur spécifiée est présente dans l’objet | x in y |
-| not in | Retourne true si une séquence avec la valeur spécifiée n’est pas présente dans l’objet | x not in y |
-
-### Opérateurs de comparaison (Bitwise)
-
-Les opérateurs bitwise sont utilisés pour comparer des nombres binaires.
-
-| Opérateur | Nom | Description |
-| --- | --- | --- |
-| & (et commercial) | AND | Définit chaque bit à 1 si les deux bits sont 1 |
-| | (pipe) | OR | Définit chaque bit à 1 si l’un des deux bits est 1 |
-| ^  | XOR | Définit chaque bit à 1 si uniquement l’un des deux bits est 1 |
-| ~ (tilde) | NOT | Inverse tout les bits |
 
 ## Boucles & Conditions
 
@@ -969,6 +938,38 @@ for x in [0, 1, 2]:
 	pass
 ```
 
+## Graphiques
+
+---
+
+Cela permet de voir rapidement le type de données et leur répartition. Cela permet d’orienter les décisions concernant les traitements et [tests](https://www.notion.so/Cours-Python-Stagiaires-b6077b03b28e462997b3cab2aa3d0c85) à effectuer.
+
+**Courbe**
+
+```python
+from matplotlib import pyplot # Librairie
+
+pyplot.plot(data) # Créer une courbe
+pyplot.show() #Afficher la courbe
+```
+
+**Histogramme**
+
+```python
+import matplotlib.pyplot as plt # Librairie
+
+plt.hist(data) # Afficher un histogramme
+```
+
+**Nuage de points**
+
+```python
+import matplotlib.pyplot as plt # Librairie
+
+plt.scatter(data1, data2) # Créer le nuage
+plt.show() #Afficher le nuage
+```
+
 ## Statistiques
 
 <aside>
@@ -1092,13 +1093,13 @@ from scipy.stats import wilcoxon # Librairie
 wilcoxon(data1, data2) # Fonction où data1 et data2 représentent les jeux de données à comparer
 ```
 
-# Machine Learning
+## Machine Learning
 
 💡 Pour un tutoriel pas à pas, se référer à ce [Notebook](https://colab.research.google.com/drive/1il2ATJY_97tQaJGQPs4MnAdTnL3tb5Gk?usp=sharing#scrollTo=nqdXdZa8RI5J).
 
-## Deep Learning
+### Deep Learning
 
-### PyTorch
+#### PyTorch
 
 **Objectifs**
 
