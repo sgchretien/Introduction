@@ -947,7 +947,7 @@ N’oubliez pas de manipuler les paramètres (nom des axes, graduation, couleurs
 **Courbe**
 
 ```python
-from matplotlib import pyplot # Librairie
+from matplotlib import pyplot # Librairie : ici on l'a importée directement, donc on l'appelle avec pyplot
 
 pyplot.plot(data) # Créer une courbe
 pyplot.show() #Afficher la courbe
@@ -956,7 +956,7 @@ pyplot.show() #Afficher la courbe
 **Histogramme**
 
 ```python
-import matplotlib.pyplot as plt # Librairie
+from matplotlib import pyplot # Librairie : ici on l'a importée directement, donc on l'appelle avec pyplot
 
 plt.hist(data) # Créer un histogramme
 plt.show() # Afficher un histogramme
@@ -965,7 +965,7 @@ plt.show() # Afficher un histogramme
 **Nuage de points**
 
 ```python
-import matplotlib.pyplot as plt # Librairie
+from matplotlib import pyplot # Librairie : ici on l'a importée directement, donc on l'appelle avec pyplot
 
 plt.scatter(data1, data2) # Créer le nuage
 plt.show() #Afficher le nuage
