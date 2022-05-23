@@ -942,6 +942,7 @@ for x in [0, 1, 2]:
 ---
 
 Cela permet de voir rapidement le type de données et leur répartition. Cela permet d’orienter les décisions concernant les traitements et [tests](https://www.notion.so/Cours-Python-Stagiaires-b6077b03b28e462997b3cab2aa3d0c85) à effectuer.
+N’oubliez pas de manipuler les paramètres (nom des axes, graduation, couleurs, etc.).
 
 **Courbe**
 
@@ -957,7 +958,8 @@ pyplot.show() #Afficher la courbe
 ```python
 import matplotlib.pyplot as plt # Librairie
 
-plt.hist(data) # Afficher un histogramme
+plt.hist(data) # Créer un histogramme
+plt.show() # Afficher un histogramme
 ```
 
 **Nuage de points**
