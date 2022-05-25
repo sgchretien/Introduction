@@ -1165,13 +1165,13 @@ On utilise encore un [module](https://scikit-learn.org/stable/modules/generated/
 ```python
 from sklearn.linear_model import LinearRegression # Librairie
 
-model = LinearRegression().fit(X, y) # Créer la régression à partir de X (variable indépendante) et y (variable dépendante)
-model.score(X, y) # Score de régression (coefficient de détermination R2)
+model = LinearRegression().fit(X_train, y) # Créer la régression à partir de X (variable indépendante) et y (variable dépendante)
+model.score(X_train, y) # Score de régression (coefficient de détermination R2)
 model.coef_ # Coefficient(s) de régression (β1, β2, etc.) NB : il s'agit d'un modèle simple lorsqu'on a uniquement β1Rég
-model.intercept # Coefficient β0 (ordonnée à l'origine)
-predict(X) # Prédire grâce au modèle
-model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, ajusté, résidus, etc.)
+model.intercept_ # Coefficient β0 (ordonnée à l'origine)
+model.predict(X_test) # Prédire grâce au modèle
 ```
+Vous pouvez retrouver un exemple d'utilisation de cette bibliothèque [ici](https://github.com/StagiairesMIASHS/Introduction/blob/main/exo_modele_lineaire.py).
 
 ### Régression logistique
 
@@ -1181,11 +1181,11 @@ On utilise un autre [module](https://scikit-learn.org/stable/modules/generated/s
 from sklearn.linear_model import LogisticRegression # Librairie
 
 model = LogisticRegression().fit(X, y) # Créer la régression à partir de X (variable indépendante) et y (variable dépendante)
-model.score(X, y) # Score de régression (coefficient de détermination R2)
+model.score(X_train, y) # Score de régression (coefficient de détermination R2)
 model.coef_ # Coefficient(s) de régression (β1, β2, etc.) NB : il s'agit d'un modèle simple lorsqu'on a uniquement β1Rég
 model.intercept # Coefficient β0 (ordonnée à l'origine)
-predict(X) # Prédire grâce au modèle
-model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2, ajusté, résidus, etc.)
+predict(X_test) # Prédire grâce au modèle
+model.summary() # On affiche les statistiques importantes (AIC, BIC, R2, R2 ajusté, résidus, etc.)
 ```
 
 # Ressources
