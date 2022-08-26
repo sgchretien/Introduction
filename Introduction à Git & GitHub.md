@@ -288,7 +288,7 @@ git commit -m "Premier Commit" !
 #	create mode 100644 salut.py 
 ```
 
-La commande `commit` effectue un commit, et le paramètre `-e "message"` ajoute un message.
+La commande `commit` effectue un commit, et le paramètre `-m "message"` ajoute un message.
 
 L’environnement de staging a bien été commit dans notre repo.
 
